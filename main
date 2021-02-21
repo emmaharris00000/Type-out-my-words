@@ -1,0 +1,16 @@
+lines = [
+    
+]
+ 
+from time import sleep
+import sys
+ 
+for line in lines:
+    for c in line: 
+        print(c, end='')  
+        sys.stdout.flush()  
+        (sleep(0.05))         
+    sleep(.4)
+    print() 
+ 
+ 
