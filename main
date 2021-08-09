@@ -1,5 +1,5 @@
 lines = [
-    
+    #include your scripted obejcts here, ex: "this is a line that will be read into terminal", "there will be a pause between this and the last sentence", "",
 ]
  
 from time import sleep
